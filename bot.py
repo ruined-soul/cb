@@ -60,7 +60,7 @@ def handle_move(update: Update, context: CallbackContext) -> None:
 
 def main() -> None:
     # Replace 'YOUR_TOKEN' with your bot's API token
-    updater = Updater("YOUR_TOKEN")
+    updater = Updater("7273900330:AAFCXXJUHshcxLUgpV8SmXf2VgHA_zIr0FM")
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
