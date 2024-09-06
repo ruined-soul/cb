@@ -7,7 +7,7 @@ from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, InlineQu
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # MongoDB setup
-MONGO_URI = "YOUR_MONGO_DB_CONNECTION_STRING"  # Replace with your MongoDB URI
+MONGO_URI = "mongodb+srv://vicil25668:<25668vicil>@cluster0.1a1mg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # Replace with your MongoDB URI
 client = MongoClient(MONGO_URI)
 db = client['game_db']
 games_collection = db['games']
